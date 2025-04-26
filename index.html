@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./src/assets/icone-garrafavinho.png">
+    <link rel="shortcut icon" href="./src/assets/iconTaca.png">
     <link rel="stylesheet" href="./src/css/style.css">
-    <title>Vinharia</title>
+    <title>Vinharia Agnello</title>
 </head>
 <body>
     <div id="container">
         <header>
-            <img src="" alt="Icone">
+            <img src="./src/assets/iconTaca.png" alt="Icone">
             <input type="search">
-            <button>Conta</button>
-            <button>Carrinho</button>
+            <button id="carrinho">Carrinho</button>
+            <button id="conta">Conta</button>
         </header>
         <nav id="menu">
             <ul>
@@ -28,50 +28,51 @@
                 <section id="sobre-nos">
                     <h1>Vinharia Agnello</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, deserunt temporibus quas impedit ad explicabo laboriosam eveniet fugiat iusto doloremque nulla sit perspiciatis aspernatur praesentium placeat assumenda iure blanditiis accusamus.
+                        A Vinharia Agnello oferece uma seleção exclusiva de vinhos, focada em proporcionar uma experiência única para cada cliente. Aqui, qualidade e atendimento personalizado se encontram para criar momentos inesquecíveis.
                     </p>
                 </section>
                 <section id="display">
                     <article class="produto">
-                        <img src="" alt="">
-                        <h3>Nome</h3>
-                        <p>Descrição</p>
-                        <p>R$:Preço</p>
-                        <input type="number" class="quantidade" min="1" placeholder="1">
-                        <button type="submit">comprar</button>
+                        <img src="./src/assets/imagem_vinho.jpg" alt="">
+                        <h3>Nome do vinho</h3>
+                        <p>Breve descrição Do Vinho com principais caracteristicas</p>
+                        <div class ="infocomp">
+                            <h1>R$:Preço</h1>
+                            <input type="number" class="quantidade" min="1" placeholder="1">
+                            <button type="submit">comprar</button>
+                        </div>
                     </article>
                     <article class="produto">
-                        <img src="" alt="">
-                        <h3>Nome</h3>
-                        <p>Descrição</p>
-                        <p>R$:Preço</p>
-                        <input type="number" class="quantidade" min="1" placeholder="1">
-                        <button type="submit">comprar</button>
+                        <img src="./src/assets/imagem_vinho.jpg" alt="">
+                        <h3>Vinho x</h3>
+                        <p>Um vinho elegante, de aroma frutado e paladar suave, perfeito para qualquer ocasião.</p>
+                        <div class ="infocomp">
+                            <h1>R$:51,00</h1>
+                            <input type="number" class="quantidade" min="1" placeholder="1">
+                            <button type="submit">comprar</button>
+                        </div>
                     </article>
                     <article class="produto">
-                        <img src="" alt="">
-                        <h3>Nome</h3>
-                        <p>Descrição</p>
-                        <p>R$:Preço</p>
-                        <input type="number" class="quantidade" min="1" placeholder="1">
-                        <button type="submit">comprar</button>
+                        <img src="./src/assets/imagem_vinho.jpg" alt="">
+                        <h3>Vinho fulano</h3>
+                        <p>Vinho robusto, com nuances de especiarias e um toque aveludado, excelente para momentos especiais.</p>
+                        <div class ="infocomp">
+                            <h1>R$:99,99</h1>
+                            <input type="number" class="quantidade" min="1" placeholder="1">
+                            <button type="submit">comprar</button>
+                        </div>
                     </article>
                     <article class="produto">
-                        <img src="" alt="">
-                        <h3>Nome</h3>
-                        <p>Descrição</p>
-                        <p>R$:Preço</p>
-                        <input type="number" class="quantidade" min="1" placeholder="1">
-                        <button type="submit">comprar</button>
+                        <img src="./src/assets/imagem_vinho.jpg" alt="">
+                        <h3>Vinho tal</h3>
+                        <p>Vinho de corpo leve, com notas de frutas vermelhas e um final delicado, ideal para acompanhar pratos leves.</p>
+                        <div class ="infocomp">
+                            <h1>R$:229,99</h1>
+                            <input type="number" class="quantidade" min="1" placeholder="1">
+                            <button type="submit">comprar</button>
+                        </div>
                     </article>
-                    <article class="produto">
-                        <img src="" alt="">
-                        <h3>Nome</h3>
-                        <p>Descrição</p>
-                        <p>R$:Preço</p>
-                        <input type="number" class="quantidade" min="1" placeholder="1">
-                        <button type="submit">comprar</button>
-                    </article>
+                   
                 </section>
             </main>
         </div>
@@ -90,9 +91,9 @@
                         <li><a href="#">LinkedIn</a></li>
                     </ul>
                 </div>
-                <div class="direitos">
-                    <p>&copy; 2025 Vinharia Agnello. Todos os direitos reservados.</p>
-                </div>
+            </div>
+            <div class="direitos">
+                <p>&copy; 2025 Vinharia Agnello. Todos os direitos reservados.</p>
             </div>
         </footer>
 

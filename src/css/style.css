@@ -1,0 +1,192 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #02010c;
+    color: #ffffff;
+}
+
+/* Container principal */
+#container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+/* Header ----------------------------------- */
+header {
+    background-color: #800020;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px 20px;
+}
+
+header img {
+    width: 50px;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+header input[type="search"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    background-color: #550015;
+    margin-left: 2%;
+}
+
+header button {
+    background-color: white;
+    color: #800020;
+    border: none;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#conta{
+    position: absolute;
+    right: 0; 
+    
+}
+#carrinho{
+    position: absolute;
+    right: 70px; 
+}
+
+
+header button:hover {
+    background-color: #550015;
+    color: #ffffff;
+}
+
+/* Menu -------------------------------------------------- */
+#menu {
+    background-color: #550015;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20vw;
+}
+
+#menu ul li {
+    padding: 10px 5px 10px 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+#menu ul li:hover {
+    background-color: #800020;
+}
+
+
+
+
+
+
+/* Sobre nós (vinharia agnelo)---------------------------------------- */
+
+#conteudo {
+    flex: 1;
+    padding: 20px;
+}
+#sobre-nos {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#sobre-nos h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#sobre-nos p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+/* caixinha dos produtos------------------ */
+#display {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.produto {
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #550015;
+    display: flex;
+    flex-direction: column;
+}
+
+.produto img{
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.produto p {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+  }
+
+.infocomp{
+    margin-top: auto;
+    margin-bottom: px;
+    flex-direction: column;
+    
+}
+
+article div button{
+    cursor: pointer;
+}
+
+article div button:hover{
+    background-color: #800020;
+    color: #ffffff;
+}
+
+/*footer ----------------------------------------------------------*/
+footer{
+    background-color: #550015;
+    margin-top: 200px;
+    padding: 20px;
+}
+
+.footer-content{
+   display: flex;
+   justify-content: space-between;
+}
+.contato, .redesSociais {
+    flex: 1; 
+    margin-right: 20px; 
+}
+.direitos{
+    margin-top: 40px;
+    text-align: center; 
+}
